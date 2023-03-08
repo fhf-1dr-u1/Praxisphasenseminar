@@ -12,14 +12,14 @@ import { Link } from "react-scroll";
 export const Work = (): ReactElement => {
   return (
     <div className="relative">
-      <div className="bg-blue-900 absolute z-10 top-0 left-0 right-2/3 bottom-1/2 md:visible invisible" />
+      <div className="bg-blue-900 absolute z-10 top-0 left-0 right-2/3 bottom-1/2 xl:visible invisible" />
       <Link
         activeClass="active"
         to="Workflow"
         spy={true}
         smooth={true}
         duration={400}
-        className="flex flex-col items-center justify-center h-[100vh] flex-wrap relative"
+        className="flex flex-col items-center justify-center xl:h-[100vh] flex-wrap relative py-20 xl:py-0"
         id="Work"
       >
         <div className="flex flex-col items-center">
@@ -27,7 +27,7 @@ export const Work = (): ReactElement => {
           <HorizontalLine className="z-20" isPulledThrough>
             <h4 className="text-lg"> Arbeiten in einem Agilen Arbeitsumfeld</h4>
           </HorizontalLine>
-          <div className="flex flex-wrap lg:flex-nowrap justify-center gap-10 pt-5 px-5 z-10">
+          <div className="flex flex-wrap justify-center gap-10 pt-5 z-10">
             <TaskCard url={page} title="Entwicklung">
               <div className="flex flex-wrap gap-2">
                 <SkillCard text="React"></SkillCard>

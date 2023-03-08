@@ -4,9 +4,9 @@ import { WorkflowItem } from "./UI/WorkflowItem.component";
 export const Workflow = () => {
   return (
     <div className="relative">
-      <div className="bg-blue-900 absolute z-10 top-1/2 left-2/3 right-0 bottom-0 md:visible invisible" />
+      <div className="bg-blue-900 absolute z-10 top-1/2 left-2/3 right-0 bottom-0 xl:visible invisible" />
       <div
-        className="flex flex-col p-32 items-center justify-center h-[100vh] flex-wrap"
+        className="flex flex-col p-14 xl:p-32 items-center justify-center xl:h-[100vh] flex-wrap"
         id="Workflow"
       >
         <div className="w-full md:w-7/12 ">

@@ -6,7 +6,7 @@ import { Workflow } from "./Workflow.component";
 
 export const Presentation = () => {
   return (
-    <div className="scroll-smooth w-full">
+    <div className="cursor-pointer scroll-smooth w-full flex flex-col justify-center font-roboto">
       <Introduction />
       <AboutHeise />
       <Work />

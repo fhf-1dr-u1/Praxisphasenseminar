@@ -14,8 +14,8 @@ export const TaskCard = ({
   children,
 }: TaskCardProps): ReactElement => {
   return (
-    <div className="flex flex-col items-center bg-white rounded-md border-stone-900 overflow-hidden border-2 w-[28%]">
-      <img src={url} alt="Task" className="w-full h-36 md:h-56" />
+    <div className="flex flex-col items-center bg-white rounded-md border-stone-900 overflow-hidden border-2 w-[28%] min-w-[400px]">
+      <img src={url} alt="Task" className="w-full h-56" />
       <div className="flex flex-col w-full p-4">
         <h3 className="text-xl font-semibold">{title}</h3>
         <HorizontalLine className="mt-2" />
