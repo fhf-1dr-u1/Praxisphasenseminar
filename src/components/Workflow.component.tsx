@@ -3,13 +3,10 @@ import { WorkflowItem } from "./UI/WorkflowItem.component";
 
 export const Workflow = () => {
   return (
-    <div className="relative">
+    <div className="relative" id="Workflow">
       <div className="bg-blue-900 absolute z-10 top-1/2 left-2/3 right-0 bottom-0 xl:visible invisible" />
-      <div
-        className="flex flex-col p-14 xl:p-32 items-center justify-center xl:h-[100vh] flex-wrap"
-        id="Workflow"
-      >
-        <div className="w-full md:w-7/12 ">
+      <div className="flex flex-col p-14 xl:p-32 items-center justify-center xl:h-[100vh] flex-wrap">
+        <div className="w-full md:w-7/12 py-16">
           <h3 className="text-2xl font-bold underline underline-offset-8 decoration-4 mb-5 dark:text-white">
             Workflow
           </h3>
