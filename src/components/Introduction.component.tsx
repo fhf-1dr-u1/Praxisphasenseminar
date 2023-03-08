@@ -14,7 +14,7 @@ export const Introduction = (): ReactElement => (
       spy={true}
       smooth={true}
       duration={400}
-      className="flex flex-col-reverse flex-wrap lg:flex-row lg:flex-nowrap items-center justify-center lg:gap-24 gap-12 :h-[100vh] p-16 font-roboto z-10 relative"
+      className="flex flex-col-reverse flex-wrap lg:flex-row lg:flex-nowrap items-center justify-center lg:gap-24 gap-12 xl:h-[100vh] p-16 font-roboto z-10 relative"
     >
       <div className="flex flex-col self-stretch w-fit mx-auto lg:mx-0">
         <div className="my-auto lg:w-full self-center">
