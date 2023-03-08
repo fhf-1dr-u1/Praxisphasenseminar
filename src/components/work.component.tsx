@@ -23,9 +23,11 @@ export const Work = (): ReactElement => {
         id="Work"
       >
         <div className="flex flex-col items-center">
-          <h1 className="text-4xl font-bold">Meine Tätigkeiten</h1>
+          <h1 className="text-3xl md:text-4xl font-bold">Meine Tätigkeiten</h1>
           <HorizontalLine className="z-20" isPulledThrough>
-            <h4 className="text-lg"> Arbeiten in einem Agilen Arbeitsumfeld</h4>
+            <h4 className="md:text-lg text-center">
+              Arbeiten in einem Agilen Arbeitsumfeld
+            </h4>
           </HorizontalLine>
           <div className="flex flex-wrap justify-center gap-10 pt-5 z-10">
             <TaskCard url={page} title="Entwicklung">
